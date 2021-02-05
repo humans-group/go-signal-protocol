@@ -3,7 +3,7 @@ package dratchet
 import (
 	"fmt"
 
-	"github.com/humans-group/go-signal-protocol/cipher"
+	"github.com/humans-group/go-signal-protocol/cipher/cdc"
 	"github.com/humans-group/go-signal-protocol/curve"
 	"github.com/humans-group/go-signal-protocol/kdf"
 )
@@ -69,7 +69,7 @@ func (s *State) Encrypt(message []byte) (*CiphertextMessage, error) {
 		return nil, err
 	}
 
-	ciphertext, err := cipher.Encrypt(mk.Iv, mk.CipherKey, message)
+	ciphertext, err := cdc.Encrypt(mk.Iv, mk.CipherKey, message)
 	if err != nil {
 		return nil, err
 	}
@@ -178,7 +178,7 @@ func (s *State) decryptSkipped(msg *CiphertextMessage) ([]byte, bool, error) {
 }
 
 func (s *State) decrypt(mk *kdf.MessageKey, ciphertext []byte) ([]byte, error) {
-	return cipher.Decrypt(mk.Iv, mk.CipherKey, ciphertext)
+	return cdc.Decrypt(mk.Iv, mk.CipherKey, ciphertext)
 }
 
 func (s *State) skip(counter int64) error {

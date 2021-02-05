@@ -7,8 +7,6 @@ import (
 	"golang.org/x/crypto/curve25519"
 )
 
-type Key [32]byte
-
 type KeyPair struct {
 	Public  [32]byte
 	Private [32]byte
