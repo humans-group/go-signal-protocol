@@ -13,7 +13,7 @@ type KeyPair struct {
 }
 
 func NewPair() (*KeyPair, error) {
-	var priv, pub [32]byte
+	var priv [32]byte
 	if _, err := io.ReadFull(rand.Reader, priv[:]); err != nil {
 		return nil, err
 	}
@@ -23,6 +23,7 @@ func NewPair() (*KeyPair, error) {
 	priv[31] &= 127
 	priv[31] |= 64
 
+	var pub [32]byte
 	curve25519.ScalarBaseMult(&pub, &priv)
 
 	return &KeyPair{

@@ -45,26 +45,26 @@ func main() {
 		panic(err)
 	}
 
-	aliceRState, err := dratchet.NewAliceState(aliceDK.Root, bobKeys.Spk.Public)
+	aliceSession, err := dratchet.NewAliceSession(aliceDK.Root, aliceKeys.Ik, bobKeys.Ik.Public, bobKeys.Spk.Public)
 	if err != nil {
 		panic(err)
 	}
 
 	alice := namedRatchet{
 		name: "alice",
-		s:    aliceRState,
+		c:    dratchet.NewController(aliceSession),
 	}
 
 	msgA1 := alice.Encrypt("syn")
 
-	bobRState, err := dratchet.NewBobState(bobDK.Root, bobKeys.Spk, msgA1.RatchetKey)
+	bobSession, err := dratchet.NewBobSession(bobDK.Root, bobKeys.Ik, bobKeys.Spk, aliceKeys.Ik.Public, msgA1.RatchetKey)
 	if err != nil {
 		panic(err)
 	}
 
 	bob := namedRatchet{
 		name: "bob",
-		s:    bobRState,
+		c:    dratchet.NewController(bobSession),
 	}
 
 	bob.Decrypt(msgA1)
@@ -109,13 +109,13 @@ type BobKeys struct {
 
 type namedRatchet struct {
 	name string
-	s    *dratchet.State
+	c    *dratchet.Controller
 }
 
 func (r *namedRatchet) Encrypt(str string) *dratchet.CiphertextMessage {
 	fmt.Println(r.name, "encrypting:", str)
 
-	msg, err := r.s.Encrypt([]byte(str))
+	msg, err := r.c.Encrypt([]byte(str))
 	if err != nil {
 		panic(err)
 	}
@@ -124,7 +124,7 @@ func (r *namedRatchet) Encrypt(str string) *dratchet.CiphertextMessage {
 }
 
 func (r *namedRatchet) Decrypt(msg *dratchet.CiphertextMessage) string {
-	bb, err := r.s.Decrypt(msg)
+	bb, err := r.c.Decrypt(msg)
 	if err != nil {
 		panic(err)
 	}

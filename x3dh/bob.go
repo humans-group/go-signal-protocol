@@ -17,7 +17,6 @@ type Bob struct {
 }
 
 func DeriveBobKeys(params Bob) (*kdf.DerivedKeys, error) {
-	// SKAD
 	dh1, err := dh.CalculateSecret(params.SpkB, params.IkA)
 	if err != nil {
 		return nil, fmt.Errorf("calculate dh1: %w", err)
