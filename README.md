@@ -45,8 +45,8 @@ The function calculates two type of keys:
 
 ##### Communication
 
-![Sequence diagram](https://github.com/humans-group/go-signal-protocol/blob/master/doc/communication.svg)
-
 [Double ratchet](https://signal.org/docs/specifications/doubleratchet)
+
+![Sequence diagram](https://github.com/humans-group/go-signal-protocol/blob/master/doc/communication.svg)
 
 #### Multiple devices (TODO)
