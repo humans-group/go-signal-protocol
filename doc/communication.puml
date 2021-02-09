@@ -71,6 +71,7 @@ activate Alice
 
 group RatchetKeyB is different for receiving chain
 Alice -> Alice: rotate receiving chain
+activate Alice
 note left of Alice
 secret = DH(ratchetKeyA, RatchetKeyB)
 newRoot, newReceivingChain = KDF(root, secret)
@@ -85,5 +86,7 @@ calculatedMac = HMAC(messageKey, IkA, IkB, Ciphertext)
 COMPARE(calculatedMac, Mac)
 plaintext = Decrypt(messageKey, Ciphertext)
 end note
+return
+deactivate Alice
 
 @enduml
