@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1659px" preserveAspectRatio="none" style="width:886px;height:1659px;" version="1.1" viewBox="0 0 886 1659" width="886px" zoomAndPan="magnify"><defs><filter height="300%" id="f8y2zd4htoa6o" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="1231.9434" style="stroke:#A80036;stroke-width:1.0;" width="10" x="120.5" y="349.9043"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="1043.1484" style="stroke:#A80036;stroke-width:1.0;" width="10" x="125.5" y="538.6992"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="34.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="310.5" y="119.1094"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="14" style="stroke:#A80036;stroke-width:1.0;" width="10" x="310.5" y="182.7305"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="807.7324" style="stroke:#A80036;stroke-width:1.0;" width="10" x="462.5" y="774.1152"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="446.832" style="stroke:#A80036;stroke-width:1.0;" width="10" x="467.5" y="1135.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="125" x2="125" y1="67.4883" y2="1590.8477"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="315" x2="315" y1="67.4883" y2="1590.8477"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="467.5" x2="467.5" y1="67.4883" y2="1590.8477"/><rect fill="#FEFECE" filter="url(#f8y2zd4htoa6o)" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="47" x="100" y="32"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="107" y="52.5352">Alice</text><rect fill="#FEFECE" filter="url(#f8y2zd4htoa6o)" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="47" x="100" y="1589.8477"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="107" y="1610.3828">Alice</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="279" y="64.5352">KeyServer</text><path d="M297.5,15 C297.5,5 315.5,5 315.5,5 C315.5,5 333.5,5 333.5,15 L333.5,41 C333.5,51 315.5,51 315.5,51 C315.5,51 297.5,51 297.5,41 L297.5,15 " fill="#FEFECE" filter="url(#f8y2zd4htoa6o)" style="stroke:#000000;stroke-width:1.5;"/><path d="M297.5,15 C297.5,25 315.5,25 315.5,25 C315.5,25 333.5,25 333.5,15 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="279" y="1603.3828">KeyServer</text><path d="M297.5,1616.3359 C297.5,1606.3359 315.5,1606.3359 315.5,1606.3359 C315.5,1606.3359 333.5,1606.3359 333.5,1616.3359 L333.5,1642.3359 C333.5,1652.3359 315.5,1652.3359 315.5,1652.3359 C315.5,1652.3359 297.5,1652.3359 297.5,1642.3359 L297.5,1616.3359 " fill="#FEFECE" filter="url(#f8y2zd4htoa6o)" style="stroke:#000000;stroke-width:1.5;"/><path d="M297.5,1616.3359 C297.5,1626.3359 315.5,1626.3359 315.5,1626.3359 C315.5,1626.3359 333.5,1626.3359 333.5,1616.3359 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#FEFECE" filter="url(#f8y2zd4htoa6o)" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="40" x="445.5" y="32"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="452.5" y="52.5352">Bob</text><rect fill="#FEFECE" filter="url(#f8y2zd4htoa6o)" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="40" x="445.5" y="1589.8477"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="452.5" y="1610.3828">Bob</text><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="1231.9434" style="stroke:#A80036;stroke-width:1.0;" width="10" x="120.5" y="349.9043"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="1043.1484" style="stroke:#A80036;stroke-width:1.0;" width="10" x="125.5" y="538.6992"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="34.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="310.5" y="119.1094"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="14" style="stroke:#A80036;stroke-width:1.0;" width="10" x="310.5" y="182.7305"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="807.7324" style="stroke:#A80036;stroke-width:1.0;" width="10" x="462.5" y="774.1152"/><rect fill="#FFFFFF" filter="url(#f8y2zd4htoa6o)" height="446.832" style="stroke:#A80036;stroke-width:1.0;" width="10" x="467.5" y="1135.0156"/><polygon fill="#A80036" points="331.5,115.1094,321.5,119.1094,331.5,123.1094,327.5,119.1094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="325.5" x2="466.5" y1="119.1094" y2="119.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="337.5" y="114.3672">push pre key bundle</text><path d="M472,82.4883 L472,137.4883 L839,137.4883 L839,92.4883 L829,82.4883 L472,82.4883 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M829,82.4883 L829,92.4883 L839,92.4883 L829,82.4883 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="478" y="100.0566">IkB</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271" x="478" y="115.3672">SpkB - public key with it's signature and id</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="346" x="478" y="130.6777">(OpkB1, OpkB2, OpkBn, ...) - a set of one time pre keys</text><polygon fill="#A80036" points="455.5,149.4199,465.5,153.4199,455.5,157.4199,459.5,153.4199" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="315.5" x2="461.5" y1="153.4199" y2="153.4199"/><polygon fill="#A80036" points="298.5,178.7305,308.5,182.7305,298.5,186.7305,302.5,182.7305" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="125.5" x2="304.5" y1="182.7305" y2="182.7305"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="166" x="132.5" y="177.9883">fetch Bob's pre key bundle</text><polygon fill="#A80036" points="136.5,192.7305,126.5,196.7305,136.5,200.7305,132.5,196.7305" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="130.5" x2="314.5" y1="196.7305" y2="196.7305"/><path d="M130,209.7305 L130,310.7305 L447,310.7305 L447,219.7305 L437,209.7305 L130,209.7305 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M437,209.7305 L437,219.7305 L447,219.7305 L437,209.7305 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="136" y="227.2988">Keys:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="136" y="242.6094">IkA - Alice's identity key pair</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="140" y="257.9199"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="136" y="273.2305">IkB - Bob's public identity key</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="260" x="136" y="288.541">SpkB - Bob's public signed key and it's id</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="296" x="136" y="303.8516">OpkB - Bob's public onetime pre key and it's id</text><line style="stroke:#A80036;stroke-width:1.0;" x1="125.5" x2="172.5" y1="336.9043" y2="336.9043"/><line style="stroke:#A80036;stroke-width:1.0;" x1="172.5" x2="172.5" y1="336.9043" y2="349.9043"/><line style="stroke:#A80036;stroke-width:1.0;" x1="131.5" x2="172.5" y1="349.9043" y2="349.9043"/><polygon fill="#A80036" points="141.5,345.9043,131.5,349.9043,141.5,353.9043,137.5,349.9043" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="137.5" y="332.1621">protocol run</text><path d="M135,367.9043 L135,499.9043 L395,499.9043 L395,377.9043 L385,367.9043 L135,367.9043 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M385,367.9043 L385,377.9043 L395,377.9043 L385,367.9043 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="141" y="385.4727">Protocol run:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="141" y="400.7832">Verify(IkB, SpkB, sign)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="141" y="416.0938">EkA = Curve()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="141" y="431.4043">dh1 = DH(IkA, SpkB)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="141" y="446.7148">dh2 = DH(EkA, IkB)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="141" y="462.0254">dh3 = DH(EkA, SpkB)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="141" y="477.3359">dh4 = DH(EkA, OpkB)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239" x="141" y="492.6465">root, chain = KDF(dh1, dh2, dh3, dh4)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="130.5" x2="177.5" y1="525.6992" y2="525.6992"/><line style="stroke:#A80036;stroke-width:1.0;" x1="177.5" x2="177.5" y1="525.6992" y2="538.6992"/><line style="stroke:#A80036;stroke-width:1.0;" x1="136.5" x2="177.5" y1="538.6992" y2="538.6992"/><polygon fill="#A80036" points="146.5,534.6992,136.5,538.6992,146.5,542.6992,142.5,538.6992" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="142.5" y="520.957">init ratchet</text><path d="M140,556.6992 L140,627.6992 L432,627.6992 L432,566.6992 L422,556.6992 L140,556.6992 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M422,556.6992 L422,566.6992 L432,566.6992 L422,556.6992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="146" y="574.2676">Init ratchet:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="146" y="589.5781">ratchetKeyA = Curve()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="146" y="604.8887">secret = DH(ratchetKeyA, SpkB)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271" x="146" y="620.1992">newRoot, sendingChain = KDF(root, secret)</text><path d="M140,641.9414 L140,742.9414 L569,742.9414 L569,651.9414 L559,641.9414 L140,641.9414 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M559,641.9414 L559,651.9414 L569,651.9414 L559,641.9414 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157" x="146" y="659.5098">Prepare Pre Key Message:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="357" x="146" y="674.8203">messageKey, newSendingChain = KDF_CK(sendingChain)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278" x="146" y="690.1309">ciphertext = Encrypt(messageKey, plaintext)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="296" x="146" y="705.4414">mac = HMAC(messageKey, IkA, IkB, ciphertext)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="316" x="146" y="720.752">ciphertextMessage = {ciphertext, mac, ratchetKey}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="408" x="146" y="736.0625">preKeyMessage = {ciphertextMessage, IkA, EkA, SpkBID, OpkBID}</text><polygon fill="#A80036" points="450.5,770.1152,460.5,774.1152,450.5,778.1152,454.5,774.1152" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="135.5" x2="456.5" y1="774.1152" y2="774.1152"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="142.5" y="769.373">send pre key message</text><path d="M477,787.1152 L477,950.1152 L816,950.1152 L816,797.1152 L806,787.1152 L477,787.1152 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M806,787.1152 L806,797.1152 L816,797.1152 L806,787.1152 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="483" y="804.6836">Pre Key Message:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="483" y="819.9941">IkA - Alice's public identity key</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="176" x="483" y="835.3047">EkA - Alice's ephemeral key</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="483" y="850.6152">SpkBID - id of the used signed pre key.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="318" x="483" y="865.9258">OpkBID - id of the used one time pre key if exists.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="487" y="881.2363"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="483" y="896.5469">Ciphertext Message:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="483" y="911.8574">Ciphertext</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="483" y="927.168">Mac</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="483" y="942.4785">RatchetKeyA - Alice's ratchet key</text><path d="M477,964.2207 L477,1096.2207 L737,1096.2207 L737,974.2207 L727,964.2207 L477,964.2207 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M727,964.2207 L727,974.2207 L737,974.2207 L727,964.2207 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="483" y="981.7891">Protocol run:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="483" y="997.0996">dh1 = DH(SpkB, IkA)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="483" y="1012.4102">dh2 = DH(IkB, EkA)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="483" y="1027.7207">dh3 = DH(SpkB, EkA)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="483" y="1043.0313">dh4 = DH(OpkB, EkA)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239" x="483" y="1058.3418">root, chain = KDF(dh1, dh2, dh3, dh4)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="487" y="1073.6523"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="483" y="1088.9629">DEL(OpkB)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="472.5" x2="519.5" y1="1122.0156" y2="1122.0156"/><line style="stroke:#A80036;stroke-width:1.0;" x1="519.5" x2="519.5" y1="1122.0156" y2="1135.0156"/><line style="stroke:#A80036;stroke-width:1.0;" x1="478.5" x2="519.5" y1="1135.0156" y2="1135.0156"/><polygon fill="#A80036" points="488.5,1131.0156,478.5,1135.0156,488.5,1139.0156,484.5,1135.0156" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="484.5" y="1117.2734">init ratchet</text><path d="M482,1153.0156 L482,1285.0156 L852,1285.0156 L852,1163.0156 L842,1153.0156 L482,1153.0156 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M842,1153.0156 L842,1163.0156 L852,1163.0156 L842,1153.0156 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="488" y="1170.584">Init ratchet:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="492" y="1185.8945"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="200" x="488" y="1201.2051">secret = DH(SpkB, RatchetKeyA)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278" x="488" y="1216.5156">newRoot, receivingChain = KDF(root, secret)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="492" y="1231.8262"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="488" y="1247.1367">ratchetKeyB = Curve()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="293" x="488" y="1262.4473">sendingSecret = DH(ratchetKeyB, RatchetKeyA)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="349" x="488" y="1277.7578">newRoot, sendingChain = KDF(newRoot, sendingSecret)</text><path d="M482,1299.5 L482,1385.5 L877,1385.5 L877,1309.5 L867,1299.5 L482,1299.5 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M867,1299.5 L867,1309.5 L877,1309.5 L867,1299.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="488" y="1317.0684">Decrypt ciphertext message:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="374" x="488" y="1332.3789">messageKey, newReceivingChain = KDF_CK(receivingChain)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="359" x="488" y="1347.6895">calculatedMac = HMAC(messageKey, IkA, IkB, ciphertext)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="488" y="1363">COMPARE(calculatedMac, Mac)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="280" x="488" y="1378.3105">plaintext = Decrypt(messageKey, ciphertext)</text><path d="M482,1400.0527 L482,1486.0527 L596,1486.0527 L596,1410.0527 L586,1400.0527 L482,1400.0527 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M586,1400.0527 L586,1410.0527 L596,1410.0527 L586,1400.0527 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="488" y="1417.6211">Final state:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="488" y="1432.9316">rootKey</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="488" y="1448.2422">receivingChain</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="488" y="1463.5527">sendingChain</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="488" y="1478.8633">ratchetKeyB</text><path d="M5,1500.6055 L5,1571.6055 L112,1571.6055 L112,1510.6055 L102,1500.6055 L5,1500.6055 " fill="#FBFB77" filter="url(#f8y2zd4htoa6o)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M102,1500.6055 L102,1510.6055 L112,1510.6055 L102,1500.6055 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="11" y="1518.1738">Final state:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="11" y="1533.4844">rootKey</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="11" y="1548.7949">sendingChain</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="11" y="1564.1055">ratchetKeyA</text><!--MD5=[0cf791b0f588baf66d5f8b79e588c268]
+@startuml
+
+participant Alice
+database KeyServer
+participant Bob
+
+autoactivate on
+
+Bob -> KeyServer: push pre key bundle
+note right
+IkB
+SpkB - public key with it's signature and id
+(OpkB1, OpkB2, OpkBn, ...) - a set of one time pre keys
+end note
+return
+
+Alice -> KeyServer: fetch Bob's pre key bundle
+return
+note right of Alice
+Keys:
+IkA - Alice's identity key pair
+
+IkB - Bob's public identity key
+SpkB - Bob's public signed key and it's id
+OpkB - Bob's public onetime pre key and it's id
+end note
+
+Alice -> Alice: protocol run
+note right of Alice
+Protocol run:
+Verify(IkB, SpkB, sign)
+EkA = Curve()
+dh1 = DH(IkA, SpkB)
+dh2 = DH(EkA, IkB)
+dh3 = DH(EkA, SpkB)
+dh4 = DH(EkA, OpkB)
+root, chain = KDF(dh1, dh2, dh3, dh4)
+end note
+
+Alice -> Alice: init ratchet
+note right of Alice
+Init ratchet:
+ratchetKeyA = Curve()
+secret = DH(ratchetKeyA, SpkB)
+newRoot, sendingChain = KDF(root, secret)
+end note
+
+note right of Alice
+Prepare Pre Key Message:
+messageKey, newSendingChain = KDF_CK(sendingChain)
+ciphertext = Encrypt(messageKey, plaintext)
+mac = HMAC(messageKey, IkA, IkB, ciphertext)
+ciphertextMessage = {ciphertext, mac, ratchetKey}
+preKeyMessage = {ciphertextMessage, IkA, EkA, SpkBID, OpkBID}
+end note
+
+Alice -> Bob: send pre key message
+note right of Bob
+Pre Key Message:
+IkA - Alice's public identity key
+EkA - Alice's ephemeral key
+SpkBID - id of the used signed pre key.
+OpkBID - id of the used one time pre key if exists.
+
+Ciphertext Message:
+Ciphertext
+Mac
+RatchetKeyA - Alice's ratchet key
+end note
+
+note right of Bob
+Protocol run:
+dh1 = DH(SpkB, IkA)
+dh2 = DH(IkB, EkA)
+dh3 = DH(SpkB, EkA)
+dh4 = DH(OpkB, EkA)
+root, chain = KDF(dh1, dh2, dh3, dh4)
+
+DEL(OpkB)
+end note
+
+Bob -> Bob: init ratchet
+
+note right of Bob
+Init ratchet:
+
+secret = DH(SpkB, RatchetKeyA)
+newRoot, receivingChain = KDF(root, secret)
+
+ratchetKeyB = Curve()
+sendingSecret = DH(ratchetKeyB, RatchetKeyA)
+newRoot, sendingChain = KDF(newRoot, sendingSecret)
+end note
+
+note right of Bob
+Decrypt ciphertext message:
+messageKey, newReceivingChain = KDF_CK(receivingChain)
+calculatedMac = HMAC(messageKey, IkA, IkB, ciphertext)
+COMPARE(calculatedMac, Mac)
+plaintext = Decrypt(messageKey, ciphertext)
+end note
+
+
+note right of Bob
+Final state:
+rootKey
+receivingChain
+sendingChain
+ratchetKeyB
+end note
+
+note left of Alice
+Final state:
+rootKey
+sendingChain
+ratchetKeyA
+end note
+
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 10:55:08 MSK 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: BY
+--></g></svg>

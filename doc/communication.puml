@@ -1,11 +1,89 @@
 @startuml
-'https://plantuml.com/sequence-diagram
 
 participant Alice
 participant Bob
 
 Alice -> Alice: prepare message
 activate Alice
+
+note left of Alice
+Prepare ciphertext message:
+messageKey, newSendingChain = KDF_CK(sendingChain)
+ciphertext = Encrypt(messageKey, plaintext)
+mac = HMAC(messageKey, IkA, IkB, ciphertext)
+ciphertextMessage = {ciphertext, mac, ratchetKeyA}
+end note
+
 Alice -> Bob: send message
+deactivate Alice
+activate Bob
+Bob -> Bob: decrypt message
+activate Bob
+
+group RatchetKeyA is different for receiving chain
+Bob -> Bob: rotate receiving chain
+activate Bob
+note right of Bob
+secret = DH(ratchetKeyB, RatchetKeyA)
+newRoot, newReceivingChain = KDF(root, secret)
+end note
+return
+end
+
+note right of Bob
+Decrypt ciphertext message:
+messageKey, newReceivingChain = KDF_CK(receivingChain)
+calculatedMac = HMAC(messageKey, IkA, IkB, Ciphertext)
+COMPARE(calculatedMac, Mac)
+plaintext = Decrypt(messageKey, Ciphertext)
+end note
+
+return
+deactivate Bob
+
+Bob -> Bob: prepare message
+activate Bob
+group receiving chain has changed
+Bob -> Bob: rotate sending chain
+activate Bob
+note right of Bob
+newRatchetKeyB = Curve()
+secret = DH(newRatchetKeyB, RatchetKeyA)
+newRoot, newSendingChain = KDF(root, secret)
+end note
+return
+end
+
+note right of Bob
+Prepare ciphertext message:
+messageKey, newSendingChain = KDF_CK(sendingChain)
+ciphertext = Encrypt(messageKey, plaintext)
+mac = HMAC(messageKey, IkA, IkB, ciphertext)
+ciphertextMessage = {ciphertext, mac, ratchetKeyB}
+end note
+
+Bob -> Alice: send message
+deactivate Bob
+activate Alice
+
+Alice -> Alice: decrypt message
+activate Alice
+
+group RatchetKeyB is different for receiving chain
+Alice -> Alice: rotate receiving chain
+note left of Alice
+secret = DH(ratchetKeyA, RatchetKeyB)
+newRoot, newReceivingChain = KDF(root, secret)
+end note
+return
+end
+
+note left of Alice
+Decrypt ciphertext message:
+messageKey, newReceivingChain = KDF_CK(receivingChain)
+calculatedMac = HMAC(messageKey, IkA, IkB, Ciphertext)
+COMPARE(calculatedMac, Mac)
+plaintext = Decrypt(messageKey, Ciphertext)
+end note
 
 @enduml

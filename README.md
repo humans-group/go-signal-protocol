@@ -1,4 +1,4 @@
-## Examples
+## Examples (DRAFT)
 
 ### Extended Triple Diffie-Hellman (X3DH)
 
@@ -41,10 +41,12 @@ The function calculates two type of keys:
 
 #### Protocol run
 
-[Sequence diagramm]()
+![Sequence diagram](https://github.com/humans-group/go-signal-protocol/blob/master/doc/protocol-run.svg)
 
 ##### Communication
 
-[Double ratchet](https://signal.org/docs/specifications/doubleratchet/)
+![Sequence diagram](https://github.com/humans-group/go-signal-protocol/blob/master/doc/communication.svg)
+
+[Double ratchet](https://signal.org/docs/specifications/doubleratchet)
 
 #### Multiple devices (TODO)
