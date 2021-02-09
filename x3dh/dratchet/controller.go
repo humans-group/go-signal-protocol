@@ -3,7 +3,7 @@ package dratchet
 import (
 	"fmt"
 
-	"github.com/humans-group/go-signal-protocol/cipher/cdc"
+	"github.com/humans-group/go-signal-protocol/cipher/cbc"
 	"github.com/humans-group/go-signal-protocol/kdf"
 )
 
@@ -25,7 +25,7 @@ func (c *Controller) Encrypt(plaintext []byte) (*CiphertextMessage, error) {
 		return nil, err
 	}
 
-	ciphertext, err := cdc.Encrypt(mk.Key.Iv, mk.Key.CipherKey, plaintext)
+	ciphertext, err := cbc.Encrypt(mk.Key.Iv, mk.Key.CipherKey, plaintext)
 	if err != nil {
 		return nil, err
 	}
@@ -53,7 +53,7 @@ func (c *Controller) Decrypt(msg *CiphertextMessage) ([]byte, error) {
 		return nil, fmt.Errorf("invalid ciphertext mac")
 	}
 
-	plaintext, err := cdc.Decrypt(mk.Key.Iv, mk.Key.CipherKey, msg.Ciphertext)
+	plaintext, err := cbc.Decrypt(mk.Key.Iv, mk.Key.CipherKey, msg.Ciphertext)
 	if err != nil {
 		return nil, fmt.Errorf("decrypt ciphertext: %w", err)
 	}

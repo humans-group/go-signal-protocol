@@ -1,0 +1,119 @@
+@startuml
+
+participant Alice
+database KeyServer
+participant Bob
+
+autoactivate on
+
+Bob -> KeyServer: push pre key bundle
+note right
+IkB
+SpkB - public key with it's signature and id
+(OpkB1, OpkB2, OpkBn, ...) - a set of one time pre keys
+end note
+return
+
+Alice -> KeyServer: fetch Bob's pre key bundle
+return
+note right of Alice
+Keys:
+IkA - Alice's identity key pair
+
+IkB - Bob's public identity key
+SpkB - Bob's public signed key and it's id
+OpkB - Bob's public onetime pre key and it's id
+end note
+
+Alice -> Alice: protocol run
+note right of Alice
+Protocol run:
+Verify(IkB, SpkB, sign)
+EkA = Curve()
+dh1 = DH(IkA, SpkB)
+dh2 = DH(EkA, IkB)
+dh3 = DH(EkA, SpkB)
+dh4 = DH(EkA, OpkB)
+root, chain = KDF(dh1, dh2, dh3, dh4)
+end note
+
+Alice -> Alice: init ratchet
+note right of Alice
+Init ratchet:
+ratchetKeyA = Curve()
+secret = DH(ratchetKeyA, SpkB)
+newRoot, sendingChain = KDF(root, secret)
+end note
+
+note right of Alice
+Prepare Pre Key Message:
+messageKey, newSendingChain = KDF_CK(sendingChain)
+ciphertext = Encrypt(messageKey, plaintext)
+mac = HMAC(messageKey, IkA, IkB, ciphertext)
+ciphertextMessage = {ciphertext, mac, ratchetKey}
+preKeyMessage = {ciphertextMessage, IkA, EkA, SpkBID, OpkBID}
+end note
+
+Alice -> Bob: send pre key message
+note right of Bob
+Pre Key Message:
+IkA - Alice's public identity key
+EkA - Alice's ephemeral key
+SpkBID - id of the used signed pre key.
+OpkBID - id of the used one time pre key if exists.
+
+Ciphertext Message:
+Ciphertext
+Mac
+RatchetKeyA - Alice's ratchet key
+end note
+
+note right of Bob
+Protocol run:
+dh1 = DH(SpkB, IkA)
+dh2 = DH(IkB, EkA)
+dh3 = DH(SpkB, EkA)
+dh4 = DH(OpkB, EkA)
+root, chain = KDF(dh1, dh2, dh3, dh4)
+
+DEL(OpkB)
+end note
+
+Bob -> Bob: init ratchet
+
+note right of Bob
+Init ratchet:
+
+secret = DH(SpkB, RatchetKeyA)
+newRoot, receivingChain = KDF(root, secret)
+
+ratchetKeyB = Curve()
+sendingSecret = DH(ratchetKeyB, RatchetKeyA)
+newRoot, sendingChain = KDF(newRoot, sendingSecret)
+end note
+
+note right of Bob
+Decrypt ciphertext message:
+messageKey, newReceivingChain = KDF_CK(receivingChain)
+calculatedMac = HMAC(messageKey, IkA, IkB, ciphertext)
+COMPARE(calculatedMac, Mac)
+plaintext = Decrypt(messageKey, ciphertext)
+end note
+
+
+note right of Bob
+Final state:
+rootKey
+receivingChain
+sendingChain
+ratchetKeyB
+end note
+
+note left of Alice
+Final state:
+rootKey
+sendingChain
+ratchetKeyA
+end note
+
+@enduml

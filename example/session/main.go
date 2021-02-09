@@ -21,6 +21,8 @@ func main() {
 		PreKey: newPair(),
 	}
 
+	// TODO: verify Bob's signed pre key
+
 	aliceDK, err := x3dh.DeriveAliceKeys(
 		x3dh.Alice{
 			IkA:  aliceKeys.Ik.Private,

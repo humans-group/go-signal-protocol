@@ -1,4 +1,4 @@
-package cdc
+package cbc
 
 import (
 	"bytes"

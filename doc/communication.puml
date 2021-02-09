@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+participant Alice
+participant Bob
+
+Alice -> Alice: prepare message
+activate Alice
+Alice -> Bob: send message
+
+@enduml
